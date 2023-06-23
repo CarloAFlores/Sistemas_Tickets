@@ -5,7 +5,7 @@ namespace MVC;
 class Router{
 	public function __construct(){
 
-		echo "Creando el Router...";
+		echo "Creando el Router1...";
 	}
 }
  ?>
