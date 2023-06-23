@@ -1,0 +1,17 @@
+{
+    "name": "sistemas/ejemplo-mvc",
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "CarloAFlores",
+            "email": "carlos2000sistemasc@gmail.com"
+        }
+    ],
+    "require": {}
+}
