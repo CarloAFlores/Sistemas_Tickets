@@ -39,7 +39,9 @@ class Router{
 		}
 	}
 
-
+	//Esta funcion es la encargada de dirigirnos a la view mediante los valores de "$view" y "$datos"
+	//Donde $view es enviada desde nuestro Controller y nos dira que carpeta y archivo mandar
+	//Mientras $datos es el encargado de almacenar los datos mediante un arreglo
 	public function render($view, $datos=[]){
 		foreach ($datos as $key => $values) {
 			$$key = $values;

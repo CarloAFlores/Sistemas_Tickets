@@ -1,3 +1,8 @@
+<!--Mediante esta condicion podemos decir si el footer se vera o no -->
+<?php 
+$inicio = false;
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +20,13 @@
 
     <?php echo $contenido; ?>
 
+
+<!--Aca es donde aplicamos la funcion anteriormente declarada-->
+    <?php if($inicio): ?>
     <footer>
         <h1>FOOTER</h1>
     </footer>
+    <?php  endif;?>
+    
 </body>
 </html>

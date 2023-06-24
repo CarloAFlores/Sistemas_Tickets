@@ -9,19 +9,22 @@
 </head>
 <body>
 	<section class="caja_login">
-		<div>
-			<img src="" alt="logo_empresa">
-		</div>
-		<div>
-			<img src="" alt="imagen_senor">
-			<input type="text">
-		</div>
-		<div>
-			<img src="" alt="imagen_candado">
-			<input type="text">	
-		</div>
-		
-		<input type="submit" value="Ingresas" class="btn btn-success">
+		<form action="">
+
+			<div>
+				<img src="" alt="logo_empresa">
+			</div>
+			<div>
+				<img src="" alt="imagen_senor">
+				<input type="text">
+			</div>
+			<div>
+				<img src="" alt="imagen_candado">
+				<input type="text">	
+			</div>
+			<input type="submit" value="Ingresas" class="btn btn-success">
+			
+		</form>
 	</section>
 
 	<script src="../../src/js/index.js"></script>
